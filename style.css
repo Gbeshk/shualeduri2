@@ -1,0 +1,363 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+body {
+  padding-top: 54px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.container {
+  max-width: 1110px;
+  width: 100%;
+}
+.headerbutton {
+  border-radius: 8px;
+  background: #e8eff2;
+  max-width: 175px;
+  width: 100%;
+  height: 58px;
+  color: #162542;
+  font-family: "Barlow", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 26px;
+  text-transform: uppercase;
+  border: none;
+}
+.heder {
+  display: flex;
+  max-width: 1110px;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+.secondlinebox {
+  max-width: 1110px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 83px;
+}
+.typemaster {
+  display: flex;
+  flex-direction: column;
+}
+.preorder {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 40px;
+}
+.header1 {
+  color: #162542;
+  font-family: "Barlow", sans-serif;
+  font-size: 56px;
+  font-weight: 900;
+  line-height: 56px;
+  text-transform: uppercase;
+}
+.text1 {
+  color: #7b8bad;
+  font-family: "Barlow", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 26px;
+  margin-top: 24px;
+  width: 445px;
+}
+.buton2 {
+  font-family: "Barlow", sans-serif;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 26px;
+  text-transform: uppercase;
+  border-radius: 8px;
+  background: #f16718;
+  width: 175px;
+  height: 58px;
+  border: none;
+}
+.release {
+  color: #7b8bad;
+  font-family: "Barlow", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 26px;
+  text-transform: uppercase;
+  margin-left: 40px;
+}
+.bitcampimage {
+  max-width: 540px;
+  border-radius: 20px;
+}
+.thirdlineimage {
+  border-radius: 20px;
+}
+.thirdlineimages {
+  display: flex;
+  max-width: 730.5px;
+  width: 100%;
+  justify-content: space-between;
+}
+.thirdlinebox {
+  max-width: 1110px;
+  display: flex;
+  align-items: center;
+  margin-top: 30.5px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.heder3 {
+  color: #162542;
+  font-family: "Barlow", sans-serif;
+  font-size: 32px;
+  font-weight: 900;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+.text3 {
+  color: #7b8bad;
+  font-family: "Barlow", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 26px;
+  width: 245px;
+}
+.thirdlinediv {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.fourthlinebox {
+  display: flex;
+  margin-top: 168px;
+  flex-wrap: wrap;
+  max-width: 1110px;
+  width: 100%;
+  gap: 30px;
+}
+.lastheading {
+  color: #162542;
+  font-family: "Barlow", sans-serif;
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 28px;
+  text-transform: uppercase;
+  margin-top: 48px;
+}
+.lasttext {
+  color: #7b8bad;
+  font-family: "Barlow", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+  margin-top: 24px;
+  max-width: 255px;
+  width: 100%;
+}
+.spani {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 128px;
+  color: #7b8bad;
+  font-family: "Barlow", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 26px;
+}
+.spani2 {
+  color: #7b8bad;
+  font-family: "Barlow", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+}
+.headerbutton:hover {
+  background: #162542;
+  color: #fff;
+}
+.buton2:hover {
+  background: #ff9b62;
+}
+.background1 {
+  position: absolute;
+}
+.background2 {
+  position: absolute;
+}
+.foni1 {
+  position: absolute;
+  left: 45px;
+  top: 950px;
+}
+.foni2 {
+  position: absolute;
+  top: 195px;
+  left: 1340px;
+}
+@media (min-width: 500px) and (max-width: 1000px) {
+  .container {
+    max-width: 689px;
+    width: 100%;
+  }
+  .header1 {
+    font-size: 48px;
+    line-height: 48px;
+    max-width: 339px;
+    width: 100%;
+  }
+  .text1 {
+    font-size: 16px;
+    max-width: 339px;
+    width: 100%;
+    margin-top: 34px;
+  }
+  .bitcampimage {
+    width: 478px;
+    height: 425px;
+    margin-left: 69px;
+  }
+  .secondlinebox {
+    margin-top: 62px;
+  }
+  .release {
+    height: 27px;
+    width: 128px;
+    margin-left: 37px;
+  }
+  .thirdlineimage1 {
+    width: 214px;
+    height: 320px;
+  }
+  .thirdlineimage {
+    width: 445px;
+    height: 320px;
+  }
+  .thirdlinediv {
+    flex-direction: row;
+    max-width: 689px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 72px;
+  }
+  .text3 {
+    max-width: 398px;
+    width: 100%;
+  }
+  .fourthlinebox {
+    gap: 69px;
+  }
+  .lasttext {
+    max-width: 281px;
+    width: 100%;
+  }
+  .foni1 {
+    display: none;
+  }
+  .foni2 {
+    display: none;
+  }
+}
+@media (max-width: 500px) {
+  .container {
+    max-width: 326.5px;
+    width: 100%;
+  }
+  .headerbutton {
+    width: 150px;
+    height: 48px;
+  }
+  .header1 {
+    font-size: 48px;
+    line-height: 48px;
+    max-width: 327px;
+    width: 100%;
+    margin-top: px;
+  }
+  .text1 {
+    max-width: 327px;
+    width: 100%;
+    font-size: 16px;
+    margin-top: 32px;
+  }
+  .secondlinebox {
+    flex-direction: column;
+    margin-top: 64px;
+  }
+  .buton2 {
+    max-width: 150px;
+    width: 100%;
+    height: 48px;
+  }
+  .preorder {
+    margin-top: 32px;
+  }
+  .release {
+    margin-left: 32px;
+  }
+  .bitcampimage {
+    max-width: 372px;
+    width: 100%;
+    height: 331px;
+    margin-left: 47px;
+    margin-top: 64px;
+  }
+  .thirdlineimage1 {
+    max-width: 129px;
+    width: 100%;
+    height: 193px;
+  }
+  .thirdlineimage {
+    max-width: 220px;
+    width: 100%;
+    height: 193px;
+  }
+  .thirdlineimages {
+    gap: 19px;
+  }
+  .thirdlinediv {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 75px;
+  }
+  .text3 {
+    max-width: 310px;
+    width: 100%;
+  }
+  .lastbox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+  .lasttext {
+    max-width: 327px;
+    width: 100%;
+  }
+  .fourthlinebox {
+    gap: 64px;
+    margin-top: 111px;
+  }
+  .foni1 {
+    display: none;
+  }
+  .foni2 {
+    display: none;
+  }
+}
