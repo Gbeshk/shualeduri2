@@ -95,7 +95,10 @@ body {
 }
 .bitcampimage {
   max-width: 540px;
-  border-radius: 20px;
+  width: 100%;
+height: 480px;
+border-radius: 20px;
+object-fit: cover;
 }
 .thirdlineimage {
   border-radius: 20px;
@@ -316,6 +319,7 @@ body {
     max-width: 129px;
     width: 100%;
     height: 193px;
+    margin-left: -20px;
   }
   .thirdlineimage {
     max-width: 220px;
