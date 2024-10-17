@@ -185,10 +185,12 @@ object-fit: cover;
   line-height: 26px;
 }
 .headerbutton:hover {
+  transition: 1s;
   background: #162542;
   color: #fff;
 }
 .buton2:hover {
+  transition: 1.5s;
   background: #ff9b62;
 }
 .background1 {
