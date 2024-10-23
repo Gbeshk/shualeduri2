@@ -7,6 +7,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  overflow-x: hidden;
 }
 .bigcontainer {
   max-width: 1440px;
@@ -295,16 +296,10 @@ body {
   .footer {
     margin-top: 142px;
   }
-  body{
-    overflow-x: hidden;
-    overflow-y: auto;
-  }
+
 }
 @media (max-width: 800px) {
-  body{
-    overflow-x: hidden;
-    overflow-y: auto;
-  }
+
   .bigcontainer {
     width: 375px;
     height: 3007px;
