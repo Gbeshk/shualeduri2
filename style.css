@@ -7,7 +7,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 100%;
 }
 .bigcontainer {
   max-width: 1440px;
@@ -381,6 +380,7 @@ body {
     align-items: center;
     flex-direction: column;
     text-align: center;
+    margin-left: -15px;
   }
   .thirdlinetext{
     width: 327px;
