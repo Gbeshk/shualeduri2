@@ -207,6 +207,14 @@ body {
 .mobilecalculator {
   display: none;
 }
+@media (max-width: 1300px) {
+  .position1 {
+    display: none;
+  }
+  .position2 {
+    display: none;
+  }
+}
 @media (max-width: 1130px) {
   .bigcontainer {
     width: 768px;
@@ -254,12 +262,6 @@ body {
     object-fit: cover;
     margin-left: 27px;
   }
-  .position1 {
-    display: none;
-  }
-  .position2 {
-    display: none;
-  }
   .secondline {
     flex-direction: column;
   }
@@ -296,10 +298,8 @@ body {
   .footer {
     margin-top: 142px;
   }
-
 }
 @media (max-width: 800px) {
-
   .bigcontainer {
     width: 375px;
     height: 3007px;
@@ -377,7 +377,7 @@ body {
     width: 327px;
     margin-left: 0px;
   }
-  .fourthlinediv{
+  .fourthlinediv {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -385,16 +385,16 @@ body {
     text-align: center;
     margin-left: -15px;
   }
-  .thirdlinetext{
+  .thirdlinetext {
     width: 327px;
   }
-  .thirdline{
+  .thirdline {
     margin-top: 64px;
   }
-  .thirdlineheader{
+  .thirdlineheader {
     margin-top: 48px;
   }
-  .footer{
+  .footer {
     margin-top: 96px;
   }
 }
